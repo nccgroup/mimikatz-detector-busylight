@@ -1,4 +1,4 @@
-# Mimikatz detector driver
+# Mimikatz detector driver - Busylight
 
 USB HID driver emulation with PID/VID (0x3bca/0x27bb) of Plenom A/S Busylight Alpha, that is supported by Mimikatz.
 When mimikatz is executed, a thread is spwaned by default that tries to locate one of the busylights that is supported. All HID devices are enumerated, if PID/VID is matching then packets are sent to flash the busylight in different colours.  
