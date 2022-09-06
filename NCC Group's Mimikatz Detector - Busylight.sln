@@ -1,0 +1,52 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.32002.261
+MinimumVisualStudioVersion = 12.0
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Umdf2", "Umdf2", "{8F9E6911-FDD4-4D28-9821-8A3AC44EBC82}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Driver", "Driver", "{837BF49F-1143-4D82-A340-99AAFAE83F72}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "DetectUm", "driver\umdf2\NCCDetectUm.vcxproj", "{EEECA421-064D-4E2E-8832-B0F43A9B394C}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "NCCDetectDLL", "NCCDetectDLL\NCCDetectDLL.vcxproj", "{3FB302B6-0B57-479A-A2DD-1FA87D01C45D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DLL", "DLL", "{60BEDA33-0403-4F53-80DA-C298A45F2CBF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Debug|x64 = Debug|x64
+		Release|Win32 = Release|Win32
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EEECA421-064D-4E2E-8832-B0F43A9B394C}.Debug|Win32.ActiveCfg = Debug|Win32
+		{EEECA421-064D-4E2E-8832-B0F43A9B394C}.Debug|Win32.Build.0 = Debug|Win32
+		{EEECA421-064D-4E2E-8832-B0F43A9B394C}.Debug|x64.ActiveCfg = Debug|x64
+		{EEECA421-064D-4E2E-8832-B0F43A9B394C}.Debug|x64.Build.0 = Debug|x64
+		{EEECA421-064D-4E2E-8832-B0F43A9B394C}.Release|Win32.ActiveCfg = Release|Win32
+		{EEECA421-064D-4E2E-8832-B0F43A9B394C}.Release|Win32.Build.0 = Release|Win32
+		{EEECA421-064D-4E2E-8832-B0F43A9B394C}.Release|x64.ActiveCfg = Release|x64
+		{EEECA421-064D-4E2E-8832-B0F43A9B394C}.Release|x64.Build.0 = Release|x64
+		{3FB302B6-0B57-479A-A2DD-1FA87D01C45D}.Debug|Win32.ActiveCfg = Debug|Win32
+		{3FB302B6-0B57-479A-A2DD-1FA87D01C45D}.Debug|Win32.Build.0 = Debug|Win32
+		{3FB302B6-0B57-479A-A2DD-1FA87D01C45D}.Debug|x64.ActiveCfg = Debug|x64
+		{3FB302B6-0B57-479A-A2DD-1FA87D01C45D}.Debug|x64.Build.0 = Debug|x64
+		{3FB302B6-0B57-479A-A2DD-1FA87D01C45D}.Release|Win32.ActiveCfg = Release|Win32
+		{3FB302B6-0B57-479A-A2DD-1FA87D01C45D}.Release|Win32.Build.0 = Release|Win32
+		{3FB302B6-0B57-479A-A2DD-1FA87D01C45D}.Release|x64.ActiveCfg = Release|x64
+		{3FB302B6-0B57-479A-A2DD-1FA87D01C45D}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{8F9E6911-FDD4-4D28-9821-8A3AC44EBC82} = {837BF49F-1143-4D82-A340-99AAFAE83F72}
+		{EEECA421-064D-4E2E-8832-B0F43A9B394C} = {8F9E6911-FDD4-4D28-9821-8A3AC44EBC82}
+		{3FB302B6-0B57-479A-A2DD-1FA87D01C45D} = {60BEDA33-0403-4F53-80DA-C298A45F2CBF}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {329127AC-8C5E-44FC-8483-9DCEFC45BCC3}
+	EndGlobalSection
+EndGlobal
